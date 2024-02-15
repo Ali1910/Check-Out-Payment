@@ -1,44 +1,45 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 abstract class Styles {
-  static const TextStyle style25 = TextStyle(
+  static TextStyle style25 = TextStyle(
     color: Colors.black,
-    fontSize: 25,
+    fontSize: 25.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w500,
     height: 0,
   );
-  static const TextStyle style18 = TextStyle(
+  static TextStyle style18 = TextStyle(
     color: Colors.black,
-    fontSize: 18,
+    fontSize: 18.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w400,
     height: 0,
   );
-  static const TextStyle style24 = TextStyle(
+  static TextStyle style24 = TextStyle(
     color: Colors.black,
-    fontSize: 24,
+    fontSize: 24.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w600,
     height: 0,
   );
-  static const TextStyle styleBold18 = TextStyle(
+  static TextStyle styleBold18 = TextStyle(
     color: Colors.black,
-    fontSize: 18,
+    fontSize: 18.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w600,
     height: 0,
   );
   static TextStyle style20 = TextStyle(
     color: Colors.black.withOpacity(0.800000011920929),
-    fontSize: 20,
+    fontSize: 20.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w400,
     height: 0,
   );
-  static const style22 = TextStyle(
+  static TextStyle style22 = TextStyle(
     color: Colors.black,
-    fontSize: 22,
+    fontSize: 22.sp,
     fontFamily: 'Inter',
     fontWeight: FontWeight.w500,
     height: 0,
