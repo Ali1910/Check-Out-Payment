@@ -13,7 +13,7 @@ class CustomPaymentItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: const Duration(microseconds: 600),
+      duration: const Duration(microseconds: 300),
       margin: EdgeInsetsDirectional.only(start: 20.w),
       width: 103.w,
       height: 62.h,

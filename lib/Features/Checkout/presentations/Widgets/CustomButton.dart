@@ -6,8 +6,10 @@ class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,
     this.onPressed,
+    required this.text,
   });
   final void Function()? onPressed;
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +23,7 @@ class CustomButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
         ),
       ),
-      child: Center(child: Text('Complete Payment', style: Styles.style22)),
+      child: Center(child: Text(text, style: Styles.style22)),
     );
   }
 }
