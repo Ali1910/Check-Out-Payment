@@ -12,32 +12,34 @@ class ThankYouViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
-      child: Stack(
-        clipBehavior: Clip.none,
-        children: [
-          const ThankYouContainer(),
-          Positioned(
-            right: 23.5.w,
-            left: 23.5.w,
-            bottom: 217.5.h,
-            child: const CustomDashedLine(),
-          ),
-          Positioned(
-              bottom: 200.h,
-              left: -17.5.w,
-              child: const CustomtThankYouCircleAvatar()),
-          Positioned(
-            bottom: 200.h,
-            right: -17.5.w,
-            child: const CustomtThankYouCircleAvatar(),
-          ),
-          Positioned(
-            left: 0,
-            top: -50.h,
-            right: 0,
-            child: const CustomCheckIcon(),
-          )
-        ],
+      child: SingleChildScrollView(
+        child: Stack(
+          clipBehavior: Clip.none,
+          children: [
+            const ThankYouContainer(),
+            Positioned(
+              right: 23.5.w,
+              left: 23.5.w,
+              bottom: 147.5.h,
+              child: const CustomDashedLine(),
+            ),
+            Positioned(
+                bottom: 130.h,
+                left: -17.5.w,
+                child: const CustomtThankYouCircleAvatar()),
+            Positioned(
+              bottom: 130.h,
+              right: -17.5.w,
+              child: const CustomtThankYouCircleAvatar(),
+            ),
+            Positioned(
+              left: 0,
+              top: -50.h,
+              right: 0,
+              child: const CustomCheckIcon(),
+            )
+          ],
+        ),
       ),
     );
   }
