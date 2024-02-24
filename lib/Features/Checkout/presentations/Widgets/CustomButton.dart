@@ -5,10 +5,10 @@ import 'package:payment/core/utils/styles.dart';
 class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,
-    this.onPressed,
+    required this.onPressed,
     required this.text,
   });
-  final void Function()? onPressed;
+  final void Function() onPressed;
   final String text;
 
   @override
