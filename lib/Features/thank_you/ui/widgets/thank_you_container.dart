@@ -18,7 +18,7 @@ class ThankYouContainer extends StatelessWidget {
       width: 350.w,
       decoration: BoxDecoration(
         borderRadius: BorderRadiusDirectional.circular(20),
-        color: const Color(0xffD9D9D9),
+        color: const Color(0xffEDEDED),
       ),
       child: Padding(
         padding: EdgeInsets.only(top: 50.h + 16.h, left: 25.w, right: 25.w),
